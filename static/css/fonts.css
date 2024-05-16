@@ -1,0 +1,12 @@
+:root {
+    --code-font: "Lucida Console", Monaco, monospace;
+    --normal-font: Optima, Candara, Calibri, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--normal-font);
+}
+code {
+    font-family: var(--code-font);
+    font-size: 85%;
+}

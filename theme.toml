@@ -1,0 +1,13 @@
+name = "Hatsu Sixty's Wiki Theme"
+license = "MIT"
+description = "Hugo theme based on XMin, for wikis"
+min_version = "0.18"
+
+[author]
+  name = "Hatsu Sixty"
+  homepage = "https://hatsusixty.github.io"
+
+[original]
+  author = "Yihui Xie"
+  homepage = "https://yihui.org"
+  repo = "https://github.com/yihui/hugo-xmin"

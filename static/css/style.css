@@ -1,0 +1,109 @@
+:root {
+    /* Used for accents around the website */
+    --accent-color:            #B74B90;
+    --accent-alt-color:        #FFBEE7;
+
+    /* Background, text, and alt color.
+     * Alt color is used in tables */
+    --background-color:     #FFF;
+    --foreground-color:     #000;
+    --alt-background-color: #EEE;
+
+    /* Header colors */
+    --header-foreground-color: #FFFFFF;
+    --header-background-color: #B74B90;
+    --header-border-color:     #FFBEE7;
+
+    /* Sidebarr colors */
+    --sidebar-background-color: #FFBEE7;
+    --sidebar-foreground-color: #000000;
+
+    /* Element colors */
+    --hr-color:                     #DDD;
+    --blockquote-foreground-color: green;
+    --htitle-color:                 #FFF;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.content-in-white {
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 20%;
+    padding-left: 15px;
+    margin: 15px;
+    float: left;
+
+    background-color: var(--sidebar-background-color);
+    color: var(--sidebar-foreground-color);
+}
+
+/* header and footer areas */
+.article-meta {
+    text-decoration: none;
+    background: var(--accent-alt-color);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+
+    background: var(--accent-alt-color);
+    background: linear-gradient(149deg,
+                                var(--foreground-color) 0%,
+                                var(--accent-alt-color) 100%);
+}
+.article-meta, footer { text-align: center; }
+.title { font-size: 1.1em; }
+footer a { text-decoration: none; }
+hr {
+    border-style: dashed;
+    color: var(--hr-color);
+}
+.header {
+    background-color: var(--header-background-color);
+    color: var(--header-foreground-color);
+
+    border-bottom-radius: 10px;
+    border-bottom: 5px solid var(--header-border-color);
+    border-bottom-style: dashed;
+
+    padding-bottom: 0;
+}
+.logo { margin-left: 10px; }
+
+/* code */
+pre {
+    border: 1px solid var(--foreground-color);
+    padding: 1em;
+    overflow-x: auto;
+}
+
+/* misc elements */
+img, iframe, video { max-width: 100%; }
+main { hyphens: auto; }
+blockquote { color: var(--blockquote-foreground-color); }
+
+table {
+    margin: auto;
+    border-top: 1px solid var(--foreground-color);
+    border-bottom: 1px solid var(--foreground-color);
+}
+table thead th { border-bottom: 1px solid var(--alt-background-color); }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) {
+    background: var(--alt-background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 2px 2px 5px var(--accent-color);
+    color: var(--htitle-color);
+}
