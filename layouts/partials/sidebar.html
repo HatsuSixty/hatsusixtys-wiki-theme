@@ -1,6 +1,6 @@
 <div class="sidebar">
   <ul>
-    {{ range .Site.Menus.main }}
+    {{ range site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
