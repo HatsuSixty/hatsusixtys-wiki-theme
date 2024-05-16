@@ -1,6 +1,5 @@
 <div class="sidebar">
   <ul>
-    <li>permanent ignore</li>
     {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end }}
