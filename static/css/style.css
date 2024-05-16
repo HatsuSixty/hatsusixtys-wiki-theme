@@ -76,7 +76,7 @@ hr {
     color: var(--header-foreground-color);
 
     border-bottom-radius: 10px;
-    border-bottom: 5px solid var(--header-border-color);
+    border-bottom: 2.5px solid var(--header-border-color);
     border-bottom-style: dashed;
 
     padding-bottom: 0;
