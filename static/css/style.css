@@ -35,6 +35,9 @@ body {
     max-width: 800px;
     padding: 10px;
 }
+.content-in-white li {
+    margin-left: 20px;
+}
 
 /* sidebar */
 @media (min-width:480px) {
