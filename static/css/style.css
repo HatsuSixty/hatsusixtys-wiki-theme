@@ -1,7 +1,6 @@
 :root {
-    /* Used for accents around the website */
-    --accent-color:     #B74B90;
-    --accent-alt-color: #FFBEE7;
+    /* Used for titles */
+    --accent-color: #B74B90;
 
     /* Background, text, and alt color.
      * Alt color is used in tables */
@@ -51,17 +50,11 @@ body {
 /* header and footer areas */
 .article-meta {
     text-decoration: none;
-    background: var(--accent-alt-color);
     margin-top: 10px;
     padding: 5px;
     border-radius: 15px;
-
-    background: var(--accent-alt-color);
-    background: linear-gradient(149deg,
-                                var(--foreground-color) 0%,
-                                var(--accent-alt-color) 100%);
 }
-.article-meta, footer { text-align: center; }
+footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
