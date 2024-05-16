@@ -1,7 +1,7 @@
 :root {
     /* Used for accents around the website */
-    --accent-color:            #B74B90;
-    --accent-alt-color:        #FFBEE7;
+    --accent-color:     #B74B90;
+    --accent-alt-color: #FFBEE7;
 
     /* Background, text, and alt color.
      * Alt color is used in tables */
@@ -14,7 +14,7 @@
     --header-background-color: #B74B90;
     --header-border-color:     #FFBEE7;
 
-    /* Sidebarr colors */
+    /* Sidebar colors */
     --sidebar-background-color: #FFBEE7;
     --sidebar-foreground-color: #000000;
 
@@ -90,7 +90,10 @@ pre {
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
-blockquote { color: var(--blockquote-foreground-color); }
+blockquote {
+    color: var(--blockquote-foreground-color);
+    background-color: var(--alt-background-color);
+}
 
 table {
     margin: auto;
