@@ -75,7 +75,7 @@ hr {
     background-color: var(--header-background-color);
     color: var(--header-foreground-color);
 
-    box-shadow: 0px 2px 20px -5px var(--header-border-color);
+    box-shadow: 0px -35px 50px 20px var(--header-border-color);
 
     padding-bottom: 0;
 }
