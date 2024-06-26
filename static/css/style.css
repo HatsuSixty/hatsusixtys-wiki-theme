@@ -75,9 +75,7 @@ hr {
     background-color: var(--header-background-color);
     color: var(--header-foreground-color);
 
-    border-bottom-radius: 10px;
-    border-bottom: 2.5px solid var(--header-border-color);
-    border-bottom-style: dashed;
+    box-shadow: 0px 2px 20px -5px var(--header-border-color);
 
     padding-bottom: 0;
 }
